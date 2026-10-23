@@ -1,0 +1,441 @@
+{
+ "generated_at": "2026-11-03T14:30:00.000Z",
+ "responses": 9,
+ "organisations": [
+  "HRHP",
+  "IHE",
+  "SIF",
+  "TIDE",
+  "UBRE",
+  "USP",
+  "ZMT"
+ ],
+ "other_organisations": 1,
+ "choice_counts": {
+  "A3": {
+   "inst": 2,
+   "warm": 5,
+   "urgent": 1,
+   "play": 1
+  },
+  "A4": {
+   "one": 7,
+   "coasts": 2
+  },
+  "A5": {
+   "mixed": 6
+  },
+  "A6": {
+   "blend": 3,
+   "hub": 2,
+   "compact": 3
+  },
+  "B1": {
+   "keep": 1,
+   "hybrid": 6,
+   "refine": 1
+  },
+  "B2": {
+   "notebook": 2,
+   "deep": 3,
+   "atlas": 1,
+   "sunlit": 2
+  },
+  "B3": {
+   "neutral": 1,
+   "logo": 6,
+   "deep": 1
+  },
+  "B4": {
+   "dm": 2,
+   "fraunces": 6,
+   "atkinson": 1
+  },
+  "B5": {
+   "illus": 1,
+   "photo": 2,
+   "mix": 3,
+   "data": 2
+  },
+  "B6": {
+   "light": 5,
+   "auto": 4
+  },
+  "C1": {
+   "scape": 6,
+   "film": 2
+  },
+  "C2": {
+   "lively": 5,
+   "calm": 1
+  },
+  "C4": {
+   "switch": 7,
+   "expand": 1,
+   "pages": 1
+  },
+  "C5": {
+   "need": 8,
+   "none": 1
+  },
+  "D1": {
+   "people": 7,
+   "story": 2
+  },
+  "D2": {
+   "people": 3,
+   "orgs": 3,
+   "logos": 1
+  },
+  "D4": {
+   "team": 1,
+   "coauthor": 6,
+   "curated": 1
+  },
+  "D5": {
+   "en": 7,
+   "fr": 9,
+   "kriol": 7,
+   "garifuna": 4,
+   "itaukei": 7,
+   "de": 7,
+   "es": 7,
+   "kreol": 3,
+   "maya": 2,
+   "hindi": 5
+  },
+  "D6": {
+   "inside": 3,
+   "top": 6
+  },
+  "D7": {
+   "monthly": 2,
+   "monthlyq": 3,
+   "social": 2,
+   "joint": 2
+  },
+  "S2": {
+   "events": 3,
+   "weekly": 4,
+   "several": 2
+  },
+  "S3": {
+   "diaries": 6,
+   "video": 8,
+   "papers": 7,
+   "policy": 7,
+   "voices": 4,
+   "spotlight": 7,
+   "jobs": 3,
+   "events": 1,
+   "visuals": 1
+  },
+  "S4": {
+   "kit": 7,
+   "tag": 8,
+   "collab": 1,
+   "takeover": 2
+  },
+  "S5": {
+   "enplus": 6,
+   "local": 1
+  },
+  "D5_REVIEW": {
+   "fr": 2,
+   "kriol": 2,
+   "hindi": 3,
+   "garifuna": 1,
+   "itaukei": 1
+  },
+  "WEB_PROVIDE": {
+   "logo": 5,
+   "people": 2,
+   "site": 5,
+   "desc": 4
+  },
+  "WEB_HOST": {
+   "unlikely": 3,
+   "yes": 2,
+   "probably": 2,
+   "unsure": 2
+  },
+  "SOC_FREQ": {
+   "quarter": 3,
+   "monthly": 2,
+   "milestones": 2,
+   "fortnight": 1,
+   "notnow": 1
+  },
+  "SOC_HELP": {
+   "media": 5,
+   "spotlight": 2,
+   "reshare": 3,
+   "original": 5,
+   "quotes": 4,
+   "translate": 5,
+   "takeover": 2
+  },
+  "SOC_CONTROL": {
+   "direct": 1,
+   "unsure": 3,
+   "mixed": 3,
+   "office": 1,
+   "leadership": 1
+  },
+  "SOC_ASSETS": {
+   "few": 2,
+   "yes": 2,
+   "check": 1,
+   "no": 4
+  },
+  "A1": {
+   "hub": 4,
+   "magazine": 2,
+   "showcase": 2
+  },
+  "F2": {
+   "all": 7
+  },
+  "SOC_APPROVAL": {
+   "week": 2,
+   "days": 2,
+   "sameday": 1
+  }
+ },
+ "rankings": {
+  "A2": {
+   "policy": {
+    "avg": 1.5,
+    "n": 8
+   },
+   "communities": {
+    "avg": 2.63,
+    "n": 8
+   },
+   "public": {
+    "avg": 5.25,
+    "n": 8
+   },
+   "managers": {
+    "avg": 2.25,
+    "n": 8
+   },
+   "educators": {
+    "avg": 5.25,
+    "n": 8
+   },
+   "scientists": {
+    "avg": 4.38,
+    "n": 8
+   },
+   "ec": {
+    "avg": 6.75,
+    "n": 8
+   }
+  }
+ },
+ "matrices": {
+  "C3": {
+   "depth": {
+    "skip": 1,
+    "must": 6,
+    "nice": 1,
+    "later": 1
+   },
+   "doors": {
+    "must": 6,
+    "nice": 1
+   },
+   "field": {
+    "must": 6,
+    "later": 1,
+    "skip": 1,
+    "nice": 1
+   },
+   "scrolly": {
+    "must": 1,
+    "later": 5,
+    "nice": 1,
+    "skip": 1
+   },
+   "toy": {
+    "later": 5,
+    "nice": 2,
+    "must": 2
+   },
+   "quiz": {
+    "nice": 7,
+    "later": 2
+   },
+   "gloss": {
+    "nice": 3,
+    "later": 1,
+    "skip": 2,
+    "must": 3
+   },
+   "slider": {
+    "later": 5,
+    "nice": 1,
+    "skip": 2
+   },
+   "sound": {
+    "nice": 2,
+    "later": 4,
+    "must": 2
+   },
+   "passport": {
+    "must": 1,
+    "nice": 7
+   },
+   "readtime": {
+    "must": 5,
+    "nice": 1,
+    "skip": 1,
+    "later": 1
+   },
+   "timeline": {
+    "must": 1,
+    "nice": 7,
+    "later": 1
+   },
+   "counters": {
+    "skip": 6,
+    "later": 3
+   },
+   "social": {
+    "nice": 2,
+    "skip": 4,
+    "later": 2
+   },
+   "ai": {
+    "skip": 4,
+    "nice": 3,
+    "must": 1
+   }
+  },
+  "D3": {
+   "country": {
+    "skip": 2,
+    "nice": 1,
+    "later": 2,
+    "must": 3
+   },
+   "cal": {
+    "must": 8,
+    "later": 1
+   },
+   "ask": {
+    "must": 5,
+    "nice": 2
+   },
+   "briefs": {
+    "skip": 3,
+    "later": 4,
+    "nice": 2
+   },
+   "variants": {
+    "nice": 6,
+    "must": 1,
+    "later": 1
+   },
+   "changed": {
+    "nice": 7,
+    "later": 2
+   },
+   "eu": {
+    "must": 2,
+    "later": 3,
+    "nice": 2
+   },
+   "alerts": {
+    "later": 2,
+    "nice": 6,
+    "must": 1
+   },
+   "slides": {
+    "skip": 1,
+    "later": 5,
+    "must": 1,
+    "nice": 1
+   }
+  },
+  "D8": {
+   "yt": {
+    "skip": 2,
+    "must": 6,
+    "later": 1
+   },
+   "ig": {
+    "nice": 7,
+    "must": 1,
+    "skip": 1
+   },
+   "bsky": {
+    "skip": 4,
+    "must": 1,
+    "nice": 4
+   },
+   "wa": {
+    "later": 6,
+    "must": 1,
+    "nice": 1
+   },
+   "fb": {
+    "skip": 4,
+    "nice": 2,
+    "later": 1
+   },
+   "x": {
+    "skip": 7,
+    "later": 1,
+    "nice": 1
+   },
+   "tt": {
+    "must": 1,
+    "skip": 7,
+    "nice": 1
+   },
+   "masto": {
+    "later": 2,
+    "must": 2,
+    "skip": 4,
+    "nice": 1
+   },
+   "li": {
+    "must": 4
+   }
+  }
+ },
+ "social_reach": {
+  "LinkedIn": {
+   "followers": 133800,
+   "organisations": 4
+  },
+  "Instagram": {
+   "followers": 37000,
+   "organisations": 5
+  },
+  "Mastodon": {
+   "followers": 4100,
+   "organisations": 1
+  },
+  "YouTube": {
+   "followers": 10000,
+   "organisations": 3
+  },
+  "Bluesky": {
+   "followers": 1300,
+   "organisations": 1
+  },
+  "Facebook": {
+   "followers": 151100,
+   "organisations": 5
+  },
+  "WhatsApp channel": {
+   "followers": 450,
+   "organisations": 1
+  }
+ },
+ "social_total_followers": 337750,
+ "social_organisations": 8
+}
