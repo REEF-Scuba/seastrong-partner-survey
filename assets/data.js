@@ -391,11 +391,11 @@ export const QUESTIONS = [
 { id: 'S4', g: 'S', type: 'multi', title: 'Which ways of posting together would work for your organization?',
   why: 'Most of SEASTRONG’s reach will come through partners. Pick every option that would work for you.',
   options: [
-  { id: 'kit', label: 'Share kits', desc: 'We send ready-to-post text, images and image descriptions, and you post on your channels.', rec: true },
-  { id: 'tag', label: 'Tag and reshare', desc: 'We tag you in SEASTRONG posts and you reshare when it suits you.', rec: true },
-  { id: 'collab', label: 'Joint posts', desc: 'One post that appears on both accounts (Instagram and Facebook support this).', rec: false },
-  { id: 'calendar', label: 'A shared content calendar', desc: 'Partners add upcoming fieldwork, events and news so we can plan ahead.', rec: false },
-  { id: 'takeover', label: 'Account takeovers', desc: 'A partner team runs the SEASTRONG account for a day or a week of fieldwork.', rec: false }
+  { id: 'kit', label: 'Share kits', desc: 'We send ready-to-post text, images and image descriptions, and you post on your channels.' },
+  { id: 'tag', label: 'Tag and reshare', desc: 'We tag you in SEASTRONG posts and you reshare when it suits you.' },
+  { id: 'collab', label: 'Joint posts', desc: 'One post that appears on both accounts (Instagram and Facebook support this).' },
+  { id: 'calendar', label: 'A shared content calendar', desc: 'Partners add upcoming fieldwork, events and news so we can plan ahead.' },
+  { id: 'takeover', label: 'Account takeovers', desc: 'A partner team runs the SEASTRONG account for a day or a week of fieldwork.' }
 ]},
 { id: 'S5', g: 'S', type: 'single', title: 'Which languages should SEASTRONG’s posts use?',
   why: 'Partners work in at least eight languages. Posts in a reader’s own language travel further, but every translation needs a native-speaker check.',
