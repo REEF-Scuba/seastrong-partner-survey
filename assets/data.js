@@ -181,11 +181,12 @@ export const QUESTIONS = [
 
 /* ---------------- B: Look and feel ---------------- */
 { id: 'B1', g: 'B', type: 'single', title: 'How should we use the SEASTRONG logo?',
-  why: 'Dr. Sonia Bejarano (ZMT) drew the SEASTRONG logo by hand: a wave curling over mangrove, seagrass and coral. It has real warmth and is already in use. Hand-drawn artwork can be hard to read at very small sizes, such as browser tabs and social media profile pictures. Any change will be made together with Sonia.',
+  why: 'Dr. Sonia Bejarano (ZMT) drew the SEASTRONG logo by hand: a wave curling over mangrove, seagrass and coral. It has real warmth and is already in use. Hand-drawn artwork can be hard to read at very small sizes, such as browser tabs and social media profile pictures. Any change will be made together with Sonia. The last option shows a new concept for comparison.',
   rec: 'hybrid', options: [
   { id: 'keep', label: 'Use it exactly as it is', desc: 'The drawing at every size, from banners to browser tabs.' },
   { id: 'refine', label: 'Keep the drawing, add a clean wordmark', desc: 'The drawing alongside a crisp typographic SEASTRONG and a short descriptor.' },
-  { id: 'hybrid', label: 'The drawing plus a simple companion mark', desc: 'The hand-drawn logo for banners, print and slides, with a simplified echo of it for icons and small sizes. Keeps the character and solves the practical problems.' }
+  { id: 'hybrid', label: 'The drawing plus a simple companion mark', desc: 'The hand-drawn logo for banners, print and slides, with a simplified echo of it for icons and small sizes. Keeps the character and solves the practical problems.' },
+  { id: 'identity', label: 'A new identity: the three-strand S', desc: 'A new, precise mark: three parallel strands in mangrove, seagrass and coral colors form one S, trading places along the curve the way the habitats exchange water, nutrients and young fish. It reads at every size and in a single color. The hand-drawn logo could live on in illustrations.' }
 ]},
 { id: 'B2', g: 'B', type: 'single', title: 'What overall look should the website have?',
   why: 'The mood that sets SEASTRONG apart from the template look of most EU project websites while staying credible. Each preview is a miniature homepage.',
