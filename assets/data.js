@@ -155,7 +155,7 @@ export const QUESTIONS = [
 ]},
 { id: 'A4', g: 'A', type: 'single', title: 'Which line should sit under the name?',
   why: 'The tagline appears under the name on the homepage, social media profiles and slides. “Stronger together” is already in the project’s full title, so the tagline can do different work. Suggest your own in the comment box.',
-  rec: 'one', options: [
+  rec: null, options: [
   { id: 'one', label: 'Three ecosystems. One seascape.', desc: 'States the core idea in five words, and pairs well with “Stronger together”.' },
   { id: 'coasts', label: 'Connected coasts are stronger coasts.', desc: 'Echoes the project name; works as a campaign line.' },
   { id: 'mtr', label: 'From mangrove to reef, and back.', desc: 'Movement and exchange; good for storytelling.' },
@@ -182,7 +182,7 @@ export const QUESTIONS = [
 /* ---------------- B: Look and feel ---------------- */
 { id: 'B1', g: 'B', type: 'single', title: 'How should we use the SEASTRONG logo?',
   why: 'Dr. Sonia Bejarano (ZMT) drew the SEASTRONG logo by hand: a wave curling over mangrove, seagrass and coral. It has real warmth and is already in use. Hand-drawn artwork can be hard to read at very small sizes, such as browser tabs and social media profile pictures. Any change will be made together with Sonia. The last option shows a new concept for comparison.',
-  rec: 'hybrid', options: [
+  rec: null, options: [
   { id: 'keep', label: 'Use it exactly as it is', desc: 'The drawing at every size, from banners to browser tabs.' },
   { id: 'refine', label: 'Keep the drawing, add a clean wordmark', desc: 'The drawing alongside a crisp typographic SEASTRONG and a short descriptor.' },
   { id: 'hybrid', label: 'The drawing plus a simple companion mark', desc: 'The hand-drawn logo for banners, print and slides, with a simplified echo of it for icons and small sizes. Keeps the character and solves the practical problems.' },
@@ -190,7 +190,7 @@ export const QUESTIONS = [
 ]},
 { id: 'B2', g: 'B', type: 'single', title: 'What overall look should the website have?',
   why: 'The mood that sets SEASTRONG apart from the template look of most EU project websites while staying credible. Each preview is a miniature homepage.',
-  rec: 'sunlit', options: [
+  rec: null, options: [
   { id: 'sunlit', label: 'Sunlit Shallows, with hand-drawn accents', desc: 'Light and airy, with sand and lagoon tones and an editorial serif. Pencil-style ecosystem illustrations echo the logo. Professional and warm.' },
   { id: 'deep', label: 'Deep Tide', desc: 'Dark and immersive, with glowing accents and big photography. Dramatic and memorable, but harder to keep accessible and heavier on slow connections.' },
   { id: 'notebook', label: 'Field Notebook', desc: 'Cream paper, hand-drawn lines, handwritten notes and taped-in photos. The most distinctive and closest to the logo; it needs discipline to stay professional.' },
@@ -198,7 +198,7 @@ export const QUESTIONS = [
 ]},
 { id: 'B3', g: 'B', type: 'single', title: 'Which color palette?',
   why: 'Every option is tuned so text meets accessibility contrast standards (WCAG AA). Ecosystem colors will be used consistently on maps, tags and charts.',
-  rec: 'logo', options: [
+  rec: null, options: [
   { id: 'logo', label: 'From the logo, tuned', desc: 'The blue wave, greens and coral magenta of the hand-drawn logo, deepened for contrast, with sand and ink.' },
   { id: 'lagoon', label: 'Lagoon and coral', desc: 'Brighter, tropical and optimistic. Teal leads, with coral accents.' },
   { id: 'deep', label: 'Deep ocean', desc: 'Moody blues with a single glowing accent.' },
