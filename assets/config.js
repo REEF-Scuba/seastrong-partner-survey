@@ -9,6 +9,6 @@ window.SURVEY_CONFIG = {
   contactName: 'Graham Patterson',
   contactRole: 'SEASTRONG policy and communications',
   contactEmail: 'graham@reef-scuba.org',
-  deadline: '',
-  preview: true
+  deadline: 'Wednesday, November 4, 2026',
+  preview: false
 };
