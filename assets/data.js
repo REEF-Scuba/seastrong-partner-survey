@@ -136,14 +136,15 @@ export const QUESTIONS = [
 ]},
 { id: 'A2', g: 'A', type: 'rank', title: 'Who should the homepage serve first?',
   why: 'Every page serves several audiences, but the order decides what appears first and which path we build first. Use the arrows to reorder, most important at the top.',
-  rec: ['policy', 'managers', 'communities', 'scientists', 'public', 'educators', 'ec'], items: [
+  rec: ['policy', 'managers', 'communities', 'scientists', 'public', 'educators', 'ec', 'internal'], items: [
   { id: 'policy', label: 'Agency staff and policymakers', desc: 'Ministries, marine planning agencies, regional bodies, EU officers' },
   { id: 'managers', label: 'Protected-area managers and practitioners', desc: 'Co-managers such as TIDE, SPGA and SIF, locally managed marine area networks, restoration groups' },
   { id: 'communities', label: 'Coastal communities and knowledge holders', desc: 'Including Garifuna, Maya, Kriol, iTaukei, Indo-Fijian and Seychellois communities' },
   { id: 'scientists', label: 'Scientists', desc: 'Methods, data, code and collaborators' },
   { id: 'public', label: 'Curious public and media', desc: 'Here for 10 seconds, maybe 10 minutes' },
   { id: 'educators', label: 'Educators and students', desc: 'Lessons, training modules and role models' },
-  { id: 'ec', label: 'The European Commission and reviewers', desc: 'Evidence of delivery and compliance' }
+  { id: 'ec', label: 'The European Commission and reviewers', desc: 'Evidence of delivery and compliance' },
+  { id: 'internal', label: 'Project members (internal password-protected area)', desc: 'SEASTRONG partners and staff who log in for shared resources, data and documents' }
 ]},
 { id: 'A3', g: 'A', type: 'single', title: 'Which voice should the website speak in?',
   why: 'Here is the same fact written four ways. Tone builds trust faster than any logo.',

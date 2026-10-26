@@ -107,7 +107,18 @@ export function reviveState(saved, tz) {
   s.comments = obj(saved.comments, {});
   s.rankDone = obj(saved.rankDone, {});
   const r = obj(saved.rank, {});
-  if (Array.isArray(r.A2) && r.A2.length === s.rank.A2.length && s.rank.A2.every(id => r.A2.includes(id))) s.rank.A2 = r.A2.slice();
+  // Restore each saved ranking. Items added to a question after the draft was saved go at the end,
+  // and that ranking must be confirmed again so the new item is placed on purpose.
+  Object.keys(s.rank).forEach(qid => {
+    const saved_order = r[qid];
+    if (!Array.isArray(saved_order)) return;
+    const valid = s.rank[qid];
+    const kept = saved_order.filter((id, i) => valid.includes(id) && saved_order.indexOf(id) === i);
+    if (!kept.length) return;
+    const added = valid.filter(id => !kept.includes(id));
+    s.rank[qid] = kept.concat(added);
+    if (added.length) delete s.rankDone[qid];
+  });
   if (Array.isArray(saved.channels) && saved.channels.length) s.channels = saved.channels.map(ch => Object.assign(emptyChannel(), obj(ch, {})));
   ['step', 'started_at', 'updated_at', 'hp'].forEach(k => { if (typeof saved[k] === 'string') s[k] = saved[k]; });
   if (Array.isArray(saved.visited)) s.visited = saved.visited.filter(x => typeof x === 'string');
